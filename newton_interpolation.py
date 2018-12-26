@@ -1,4 +1,5 @@
 from numpy import poly1d
+
 def f(x):
     return float(1/(1 + x * x))
 def x(k,n):
