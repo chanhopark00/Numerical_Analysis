@@ -1,5 +1,6 @@
 from numpy import poly1d
 import numpy as np
+import matplotlib.pyplot as plt
 def f(x):
     return float(1/(1 + x * x))
 def x(k,n):
@@ -17,18 +18,26 @@ def newton(k,n,p):
 def display(n):
     p = poly1d([0])
     np = newton(0,n,p)
+    xvalue = []
+    fx = []
     for i in range(0, 2 * n):
-        print("When x =",x(i,2 * n)," Original:", f(x(i, 2 * n)),"  Interpolation :", np(x(i, 2 * n)))    
+        xvalue = xvalue + [x(i,2 * n)]
+        fx = fx + [np(x(i, 2 * n))]
+    plt.plot(xvalue, fx)
+    plt.ylabel('polynomial approximate value')
 def error(n):
     p = poly1d([0])
     np = newton(0,n,p)
-    print("Error when n =",n," at 1 + root(10):", abs(np(1+10**0.5) - f(1+ 10**0.5)))
-    print()
+    return [abs(np(1+10**0.5) - f(1+ 10**0.5))]
     
 def result(n):
     display(n)
-    error(n)
+    return error(n)
 
-result(2)
-result(4)
-result(8)
+err = result(2)
+err = err + result(4)
+err = err + result(8)
+err = err + result(16)
+err = err + result(32)
+plt.plot([2,4,8,16,32], err)
+
