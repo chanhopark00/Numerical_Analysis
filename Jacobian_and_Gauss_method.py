@@ -1,4 +1,9 @@
 import numpy as np
+def dist(a,b):
+    a[0] = a[0] - b[0]
+    a[1] = a[1] - b[1]
+    a[2] = a[2] - b[2]
+    return (a[0]**2 + a[1]**2 + a[2]**2)**0.5 
 def jacobi(v):
   tmp = np.array([-1.0,2.0,3.0])
   r = np.array([0,-2.0,3.0,-3.0,0,1.0,2.0,-2.0,0])
@@ -24,15 +29,17 @@ def gauss(v):
 
 v = np.array([0,0,0])
 n = 1
+print("Error of Jacobi Method")
 while(n < 11):
-  print(jacobi(v))
+  print("iteration",n,":",dist([22/101, 35/101, -47/101],jacobi(v)))
   v = jacobi(v)
   n = n + 1
 
 print("___________________")
 v = np.array([0,0,0])
 n = 1
+print("Error of Gauss-Seidel Method")
 while(n < 11):
-  print(gauss(v))
+  print("iteration",n,":",dist([22/101, 35/101, -47/101],gauss(v)))
   v = gauss(v)
   n = n + 1
