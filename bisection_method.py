@@ -20,4 +20,4 @@ while(abss(fcn(c)) > term):
     c = (a + b) / 2
 
 
-print("ABB" , fcn(1.856))
+print("The root of the system with termination scalar 0.001 is" , fcn(1.856))
