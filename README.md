@@ -14,8 +14,8 @@
 
 ## Interpolation
   #### Newton interpolation
-  ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomial.PNG =250x250)
-  ![Error Visualisation](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_error.PNG =250x250)
+  ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomial.PNG)
+  ![Error Visualisation](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_error.PNG)
   
   #### Error Analysis
     I have chosen a fixed x-value to compare the error of polynomials of different orders. 
