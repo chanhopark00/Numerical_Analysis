@@ -26,7 +26,7 @@
    #### Simpson's Rule and Trapezoid Rule comparison 
    ![Trapezoid's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG)
    ![Simpson's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/simpson_err.PNG)
-
+   
    #### Error Anaylsis
     The code is an approximation of integral of the function e^x * cos(x) from 0 to pi.
     It is clear that the trapezoid rule is much effective in terms of approximation.
