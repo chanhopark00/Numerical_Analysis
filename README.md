@@ -4,18 +4,25 @@
 
 ## Solving Linear-System equations.
    #### Gauss-Seidel, Jabobi Iterative Method 
-   ![Given Linear System](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG)
-   ![Error Visualisation of Gauss Seidel Method](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Gauss_Seidel.PNG)
-   ![Error Visualisation of Jacobi Method](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_iteration.PNG)
-  
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG" width="300">
+   Linear System to be evaluated
+   
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Gauss_Seidel.PNG" width="400">
+   Gauss-Seidel Method Error
+   
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_iteration.PNG" width="400">
+   Jacobi Iteration Method Error
+      
   #### Error Analysis
     I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
     It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
 
 ## Interpolation
   #### Newton interpolation
-  ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomal.PNG)
-  ![Error Visualisation](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_error.PNG)
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomal.PNG" width="400">
+   Approximated Polynomials Plot
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_error.PNG" width="400">
+   Error of different order polynomials
   
   #### Error Analysis
     I have chosen a fixed x-value to compare the error of polynomials of different orders. 
@@ -24,8 +31,10 @@
     
 ## Integral Approximation
    #### Simpson's Rule and Trapezoid Rule comparison 
-   ![Trapezoid's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG)
-   ![Simpson's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/simpson_err.PNG)
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG" width="400">
+   Trapezoid's Rule Error
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG" width="400">
+   Simpson's Rule Error
    
    #### Error Anaylsis
     The code is an approximation of integral of the function e^x * cos(x) from 0 to pi.
