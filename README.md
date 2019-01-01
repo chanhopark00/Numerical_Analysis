@@ -1,15 +1,30 @@
-# Numerical_Analysis and Optimisation
+### Numerical_Analysis and Optimisation
 
-Solving non-linear equations.
-  Bisection, Newton iterative method
+## Solving Linear equations.
+   # Gauss-Seidel, Jabobi Iterative Method
+    ![Given Linear System](https://github.com/chanhopark00/Numerical_Analysis/Image/Jacobi_Question)
+    ![Error Visualisation of Gauss Seidel Method](https://github.com/chanhopark00/Numerical_Analysis/Image/Gauss_seidel)
+    ![Error Visualisation of Jacobi Method](https://github.com/chanhopark00/Numerical_Analysis/Image/Jacobi_iteartion)
+  # Error Analysis
+    I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
+    It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
+
+## Interpolation
+  # Newton interpolation
+    ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/Image/cher_polynomial)
+    ![Error Visualisation](https://github.com/chanhopark00/Numerical_Analysis/Image/cher_error)
+  # Error Analysis
+    I have chosen a fixed x-value to compare the error of polynomials of different orders. 
+    As the order increases it is clear that the error is lower.
+    However due to the runge's phenomenon, as the polynomial's order increase and further the x-value is from the nodes chosen, the error becomes significant.
+    
+## Integral Approximation
+  # Simpson's Rule and Trapezoid Rule comparison 
+    ![Trapezoid's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/Image/trapezoid_err)
+    ![Simpson's Rule Error](https://github.com/chanhopark00/Numerical_Analysis/Image/trapezoid_err)
+  # Error Anaylsis
+    The code is an approximation of integral of the function e^x * cos(x) from 0 to pi.
+    It is clear that the trapezoid rule is much effective in terms of approximation.
+    However the computational power is the trade off.
   
-  Error Anaylsis
-
-Solving linear equations
-  Iterative method, Gauss-Seidel, Jabobi Iterative gradient descent method.
-
-  Error Anaylsis
-
-Interpolation
-  Polynomial interpolation, Newton interpolation
   
