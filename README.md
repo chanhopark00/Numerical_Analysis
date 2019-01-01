@@ -14,7 +14,7 @@
 
 ## Interpolation
   #### Newton interpolation
-  ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomial.PNG)
+  ![Approximated Polynomial Plot](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomal.PNG)
   ![Error Visualisation](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_error.PNG)
   
   #### Error Analysis
