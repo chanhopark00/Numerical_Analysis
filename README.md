@@ -26,7 +26,7 @@
     
 ## Integral Approximation
    #### Simpson's Rule and Trapezoid Rule comparison 
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG" width="400">
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/simpson_err.PNG" width="400">
    <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/trapezoid_err.PNG" width="400">
    
    #### Error Anaylsis
