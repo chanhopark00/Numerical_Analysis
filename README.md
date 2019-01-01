@@ -1,6 +1,8 @@
 # Numerical_Analysis and Optimisation
+   This is a collection of algorithms learnt during numerical analysis and optimisation.
+   Code includes libraries: Numpy and Pyplot 
 
-## Solving Linear equations.
+## Solving Linear-System equations.
    ### Gauss-Seidel, Jabobi Iterative Method
     ![Given Linear System](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG)
     ![Error Visualisation of Gauss Seidel Method](https://github.com/chanhopark00/Numerical_Analysis/master/Image/Gauss_seidel.PNG)
