@@ -2,18 +2,6 @@
    This is a collection of algorithms learnt during numerical analysis and optimisation.
    Code includes libraries: Numpy and Pyplot 
 
-## Solving Linear-System equations.
-   #### Gauss-Seidel, Jabobi Iterative Method 
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG" width="300">
-   
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Gauss_Seidel.PNG" width="400">
-   
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_iteration.PNG" width="400">
-      
-  #### Error Analysis
-    I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
-    It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
-
 ## Interpolation
   #### Newton interpolation
    <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/cher_polynomal.PNG" width="400">
@@ -34,4 +22,15 @@
     It is clear that the trapezoid rule is much effective in terms of approximation.
     However the computational power is the trade off.
   
+## Solving Linear-System equations.
+   #### Gauss-Seidel, Jabobi Iterative Method 
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG" width="300">
+   
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Gauss_Seidel.PNG" width="400">
+   
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_iteration.PNG" width="400">
+      
+  #### Error Analysis
+    I have approximated the error as the distance between the approximation vector and solution vector with the usual metric. 
+    It is clear that Gauss Seidel Method converges faster to the solution than Jacobi Iteration method.
   
