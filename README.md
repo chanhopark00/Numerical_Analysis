@@ -2,7 +2,7 @@
 
 ## Solving Linear equations.
    ### Gauss-Seidel, Jabobi Iterative Method
-    ![Given Linear System](https://user-images.githubusercontent.com/36185920/50571430-0c818f00-0de5-11e9-88c1-39d8ebc1548b.PNG)
+    ![Given Linear System](https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG)
     ![Error Visualisation of Gauss Seidel Method](https://github.com/chanhopark00/Numerical_Analysis/master/Image/Gauss_seidel.PNG)
     ![Error Visualisation of Jacobi Method](https://github.com/chanhopark00/Numerical_Analysis/Image/Jacobi_iteration.PNG)
   ### Error Analysis
