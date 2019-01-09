@@ -27,7 +27,7 @@
    <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/rk_erro.png" width="400">
 
    #### Error Analysis
-   It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A method ofreducing error order would be to implement with a higher order runge-kutta method.
+   It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A method of reducing error would be to implement with a higher order runge-kutta method.
 ## Solving Linear-System equations.
    #### Gauss-Seidel, Jabobi Iterative Method 
    <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/Jacobi_Question.PNG" width="300">
