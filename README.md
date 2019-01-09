@@ -23,8 +23,8 @@
     However the computational power is the trade off.
 ## ODE Approximation
    #### Runge-Kutta 4th Order approximation
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/rk_method.PNG" width="400">
-   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/rk_erro.PNG" width="400">
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/rk_method.png" width="400">
+   <img src="https://github.com/chanhopark00/Numerical_Analysis/blob/master/Image/rk_erro.png" width="400">
 
    #### Error Analysis
    It can be noticed that the local errors of the method accumulates over iterations hence the error increases as t increases from the initial value 0. A method ofreducing error order would be to implement with a higher order runge-kutta method.
